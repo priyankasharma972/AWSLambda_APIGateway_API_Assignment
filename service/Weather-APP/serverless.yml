@@ -1,0 +1,23 @@
+
+service: weather-app
+# app and org for use with dashboard.serverless.com
+app: devtest
+org: sharmapriyankasharma07
+
+
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: us-east-1
+  environment: ${file(./env.yml)}
+
+functions:
+  weatherincovilha:
+    handler: function.getWeather
+    events:
+      - http:
+          path: weather
+          method: get
+          cors: true
+
