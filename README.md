@@ -1,9 +1,12 @@
-## This is a weather web app using AWS Lambda and API Gateway
+## Introduction
+This is a weather web app using AWS Lambda and API Gateway
 
-## Please use below URL to test the API(Test via Curl, Postman or Web-Browser)
-https://xeq7xghudk.execute-api.us-east-1.amazonaws.com/dev/weather
+### Testing
+Please use below URL to test the API(Test via Curl, Postman or Web-Browser)
+`https://xeq7xghudk.execute-api.us-east-1.amazonaws.com/dev/weather`
 
-### This API will provide the current temprature in Covilha, Portugal
+### Output
+This API will provide the current temprature in Covilha, Portugal
 
 
 ### Sample Output:
@@ -11,3 +14,5 @@ https://xeq7xghudk.execute-api.us-east-1.amazonaws.com/dev/weather
 
 
 
+## Author
+Priyanka Sharma authored this project
